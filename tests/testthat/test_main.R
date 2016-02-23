@@ -2,7 +2,7 @@ test_that("basic run", {
     # source data are prepared in tests directory
 
     # run the actual function
-    main(KBC_DATA_DIR)
+    doSomething(KBC_DATA_DIR)
 
     # verify the results
     dfResult <- read.csv(file = file.path(KBC_DATA_DIR, 'out/tables/result.csv'), stringsAsFactors = FALSE)

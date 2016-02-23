@@ -5,7 +5,7 @@
 #'
 #' @import keboola.r.docker.application
 #' @param datadir Path to data directory.
-main <- function(datadir) {
+doSomething <- function(datadir) {
   # read input
   data <- read.csv(file = file.path(datadir, "in/tables/source.csv"));
 
