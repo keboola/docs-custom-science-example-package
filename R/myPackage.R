@@ -1,9 +1,7 @@
-# Sample skeleton for custom science
-#
-
-#' Main application entrypoint
+#' Sample skeleton for custom science - Main application function
 #'
 #' @import keboola.r.docker.application
+#' @export
 #' @param datadir Path to data directory.
 doSomething <- function(datadir) {
   # read input

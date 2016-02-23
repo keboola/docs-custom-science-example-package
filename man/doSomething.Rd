@@ -2,7 +2,7 @@
 % Please edit documentation in R/myPackage.R
 \name{doSomething}
 \alias{doSomething}
-\title{Main application entrypoint}
+\title{Sample skeleton for custom science - Main application function}
 \usage{
 doSomething(datadir)
 }
@@ -10,6 +10,6 @@ doSomething(datadir)
 \item{datadir}{Path to data directory.}
 }
 \description{
-Main application entrypoint
+Sample skeleton for custom science - Main application function
 }
 
