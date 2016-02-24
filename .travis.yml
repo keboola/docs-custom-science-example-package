@@ -10,4 +10,4 @@ r_github_packages:
  - keboola/r-docker-application
 
 before_install:
- - export KBC_DATA_DIR=$TRAVIS_BUILD_DIR/tests/data/
+ - export KBC_DATADIR=$TRAVIS_BUILD_DIR/tests/data/
