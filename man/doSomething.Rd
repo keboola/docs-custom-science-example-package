@@ -12,4 +12,3 @@ doSomething(datadir)
 \description{
 Sample skeleton for custom science - Main application function
 }
-
